@@ -48,4 +48,3 @@ jobs:
       # 7️⃣ Docker 이미지 Push
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/cicd_django:latest
-        # 도커 유저네임 변경후 다시 푸시
