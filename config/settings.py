@@ -26,6 +26,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# 모든 주소에 대하여 허용하려면 다음과 같이 작성합니다.
+ALLOWED_HOSTS = ['*']
+
+# ALLOWED_HOSTS = [
+#     '121.162.59.125',
+#     'localhost',
+#     '127.0.0.1',
+# ]
+
 # Application definition
 
 INSTALLED_APPS = [
